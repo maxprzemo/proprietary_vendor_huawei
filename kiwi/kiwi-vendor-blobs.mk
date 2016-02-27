@@ -1007,6 +1007,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary//sbin/rmt_storage:root//sbin/rmt_storage \
     vendor/huawei/kiwi/proprietary//sbin/signinfolistener:root//sbin/signinfolistener \
     vendor/huawei/kiwi/proprietary//sbin/usb_update:root//sbin/usb_update \
+    vendor/huawei/kiwi/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
+    vendor/huawei/kiwi/proprietary/lib/libdmd_report.so:system/lib/libdmd_report.so \
+    vendor/huawei/kiwi/proprietary/lib64/libdmd_report.so:system/lib64/libdmd_report.so \
+    vendor/huawei/kiwi/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
+    vendor/huawei/kiwi/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
+    vendor/huawei/kiwi/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
+    vendor/huawei/kiwi/proprietary/vendor/lib64/libcalmodule_akm.so:system/vendor/lib64/libcalmodule_akm.so \
+    vendor/huawei/kiwi/proprietary/vendor/lib64/libcalmodule_common.so:system/vendor/lib64/libcalmodule_common.so \
     vendor/huawei/kiwi/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
