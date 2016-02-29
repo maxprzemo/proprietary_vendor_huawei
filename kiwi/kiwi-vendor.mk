@@ -41,4 +41,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtime_genoff
 
+PRODUCT_PACKAGES += \
+    libtfa9895
+
 $(call inherit-product, vendor/huawei/kiwi/kiwi-vendor-blobs.mk)
