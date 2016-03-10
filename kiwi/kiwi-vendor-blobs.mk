@@ -63,6 +63,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
     vendor/huawei/kiwi/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/huawei/kiwi/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/huawei/kiwi/proprietary/lib/libFNVfbEngineLib.so:system/lib/libFNVfbEngineLib.so \
+    vendor/huawei/kiwi/proprietary/lib/libhdr.so:system/lib/libhdr.so \
+    vendor/huawei/kiwi/proprietary/lib/libmrc_cg_filters.so:system/lib/libmrc_cg_filters.so \
+    vendor/huawei/kiwi/proprietary/lib/libmrc_cg_mfdenoise.so:system/lib/libmrc_cg_mfdenoise.so \
+    vendor/huawei/kiwi/proprietary/lib/libmrc_cg_myFilter.so:system/lib/libmrc_cg_myFilter.so \
+    vendor/huawei/kiwi/proprietary/lib/libmrc_cg_niceFood.so:system/lib/libmrc_cg_niceFood.so \
+    vendor/huawei/kiwi/proprietary/lib/libmrc_cg_postprocess.so:system/lib/libmrc_cg_postprocess.so \
+    vendor/huawei/kiwi/proprietary/lib/libSFBE.so:system/lib/libSFBE.so \
+    vendor/huawei/kiwi/proprietary/lib/libSmartAE.so:system/lib/libSmartAE.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libmmcamera_ar1335_sunny_f13m01f.so:system/vendor/lib64/libmmcamera_ar1335_sunny_f13m01f.so \
@@ -1273,6 +1282,93 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
+    vendor/huawei/kiwi/proprietary/etc/camera/tornado/FoliageModelTOA.model:system/etc/camera/tornado/FoliageModelTOA.model \
+    vendor/huawei/kiwi/proprietary/etc/camera/tornado/FoliageMinMaxTOA.txt:system/etc/camera/tornado/FoliageMinMaxTOA.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/tornado/SunsetModelTOA.model:system/etc/camera/tornado/SunsetModelTOA.model \
+    vendor/huawei/kiwi/proprietary/etc/camera/tornado/SunsetMinMaxTOA.txt:system/etc/camera/tornado/SunsetMinMaxTOA.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/tornado/NightMinMaxTOA.txt:system/etc/camera/tornado/NightMinMaxTOA.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/tornado/default/TornadoI.ini:system/etc/camera/tornado/default/TornadoI.ini \
+    vendor/huawei/kiwi/proprietary/etc/camera/tornado/NightModelTOA.model:system/etc/camera/tornado/NightModelTOA.model \
+    vendor/huawei/kiwi/proprietary/etc/camera/tracking/targettracking.xml:system/etc/camera/tracking/targettracking.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_010.txt:system/etc/camera/dflash/calibration_010.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_020.txt:system/etc/camera/dflash/calibration_020.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_001.txt:system/etc/camera/dflash/calibration_001.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_012.txt:system/etc/camera/dflash/calibration_012.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_017.txt:system/etc/camera/dflash/calibration_017.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_019.txt:system/etc/camera/dflash/calibration_019.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_013.txt:system/etc/camera/dflash/calibration_013.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_016.txt:system/etc/camera/dflash/calibration_016.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_004.txt:system/etc/camera/dflash/calibration_004.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_008.txt:system/etc/camera/dflash/calibration_008.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_014.txt:system/etc/camera/dflash/calibration_014.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_005.txt:system/etc/camera/dflash/calibration_005.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_003.txt:system/etc/camera/dflash/calibration_003.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_007.txt:system/etc/camera/dflash/calibration_007.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_002.txt:system/etc/camera/dflash/calibration_002.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_009.txt:system/etc/camera/dflash/calibration_009.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_015.txt:system/etc/camera/dflash/calibration_015.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_000.txt:system/etc/camera/dflash/calibration_000.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_018.txt:system/etc/camera/dflash/calibration_018.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_011.txt:system/etc/camera/dflash/calibration_011.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/calibration_006.txt:system/etc/camera/dflash/calibration_006.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/dflash/limitationgain.txt:system/etc/camera/dflash/limitationgain.txt \
+    vendor/huawei/kiwi/proprietary/etc/camera/filter/mixIm.dat:system/etc/camera/filter/mixIm.dat \
+    vendor/huawei/kiwi/proprietary/etc/camera/filter/filter.xml:system/etc/camera/filter/filter.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/nicefood/config/device.config:system/etc/camera/nicefood/config/device.config \
+    vendor/huawei/kiwi/proprietary/etc/camera/nicefood/config/default/niceFood.dat:system/etc/camera/nicefood/config/default/niceFood.dat \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/ov8858_foxconn_pad/multiframe.xml:system/etc/camera/davinci/ov8858_foxconn_pad/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/ov8858_foxconn_pad/imgproc.xml:system/etc/camera/davinci/ov8858_foxconn_pad/imgproc.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/imx214_sunny_kiw/multiframe.xml:system/etc/camera/davinci/imx214_sunny_kiw/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/imx214_sunny_kiw/imgproc.xml:system/etc/camera/davinci/imx214_sunny_kiw/imgproc.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/imx328_sunny_p13n10a_chm/multiframe.xml:system/etc/camera/davinci/imx328_sunny_p13n10a_chm/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/mfdpath.config:system/etc/camera/davinci/mfdpath.config \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/imx328_sunny_p13n10a_ale/multiframe.xml:system/etc/camera/davinci/imx328_sunny_p13n10a_ale/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/gc2355_ofilm_ohw2f03_pad/multiframe.xml:system/etc/camera/davinci/gc2355_ofilm_ohw2f03_pad/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/gc2355_ofilm_ohw2f03_pad/imgproc.xml:system/etc/camera/davinci/gc2355_ofilm_ohw2f03_pad/imgproc.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/ov5648_ofilm_ohw5f03_kiw/imgproc.xml:system/etc/camera/davinci/ov5648_ofilm_ohw5f03_kiw/imgproc.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/ov13850_ofilm_ohwba03_chm/multiframe.xml:system/etc/camera/davinci/ov13850_ofilm_ohwba03_chm/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/ov5648_foxconn_kivi/imgproc.xml:system/etc/camera/davinci/ov5648_foxconn_kivi/imgproc.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/ov2680_byd_bm2920b_pad/multiframe.xml:system/etc/camera/davinci/ov2680_byd_bm2920b_pad/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/ov2680_byd_bm2920b_pad/imgproc.xml:system/etc/camera/davinci/ov2680_byd_bm2920b_pad/imgproc.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/imx219_ofilm_pad/multiframe.xml:system/etc/camera/davinci/imx219_ofilm_pad/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/imx219_ofilm_pad/imgproc.xml:system/etc/camera/davinci/imx219_ofilm_pad/imgproc.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/imx214_foxconn_kiw/multiframe.xml:system/etc/camera/davinci/imx214_foxconn_kiw/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/imx214_foxconn_kiw/imgproc.xml:system/etc/camera/davinci/imx214_foxconn_kiw/imgproc.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/imx219_liteon_pad/multiframe.xml:system/etc/camera/davinci/imx219_liteon_pad/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/imx219_liteon_pad/imgproc.xml:system/etc/camera/davinci/imx219_liteon_pad/imgproc.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/ov13850_ofilm_ohwba03_ale/multiframe.xml:system/etc/camera/davinci/ov13850_ofilm_ohwba03_ale/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/ov13850_liteon_p13v01h_chm/multiframe.xml:system/etc/camera/davinci/ov13850_liteon_p13v01h_chm/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/ov13850_liteon_p13v01h_ale/multiframe.xml:system/etc/camera/davinci/ov13850_liteon_p13v01h_ale/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/device.config:system/etc/camera/davinci/device.config \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/default/cm_foliage.dat:system/etc/camera/davinci/default/cm_foliage.dat \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/default/cm_sky.dat:system/etc/camera/davinci/default/cm_sky.dat \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/default/multiframe.xml:system/etc/camera/davinci/default/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/default/cm_sunset.dat:system/etc/camera/davinci/default/cm_sunset.dat \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/default/cm_normal.dat:system/etc/camera/davinci/default/cm_normal.dat \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/default/hdr.xml:system/etc/camera/davinci/default/hdr.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/default/cm_correction.dat:system/etc/camera/davinci/default/cm_correction.dat \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/default/imgproc.xml:system/etc/camera/davinci/default/imgproc.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/imx214_ofilm_kiw/multiframe.xml:system/etc/camera/davinci/imx214_ofilm_kiw/multiframe.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/imx214_ofilm_kiw/imgproc.xml:system/etc/camera/davinci/imx214_ofilm_kiw/imgproc.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/davinci/s5k4e1_sunny_kivi/imgproc.xml:system/etc/camera/davinci/s5k4e1_sunny_kivi/imgproc.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/ov8858_foxconn_pad/SmartAE.xml:system/etc/camera/smartae/ov8858_foxconn_pad/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/gc2355_ofilm_ohw2f03_pad/SmartAE.xml:system/etc/camera/smartae/gc2355_ofilm_ohw2f03_pad/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/config/ov5648_ofilm_ohw5f03_chm/SmartAE.xml:system/etc/camera/smartae/config/ov5648_ofilm_ohw5f03_chm/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/config/imx328_sunny_p13n10a_chm/SmartAE.xml:system/etc/camera/smartae/config/imx328_sunny_p13n10a_chm/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/config/ov5648_foxconn_ale/SmartAE.xml:system/etc/camera/smartae/config/ov5648_foxconn_ale/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/config/imx328_sunny_p13n10a_ale/SmartAE.xml:system/etc/camera/smartae/config/imx328_sunny_p13n10a_ale/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/config/ov13850_ofilm_ohwba03_chm/SmartAE.xml:system/etc/camera/smartae/config/ov13850_ofilm_ohwba03_chm/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/config/ov13850_ofilm_ohwba03_ale/SmartAE.xml:system/etc/camera/smartae/config/ov13850_ofilm_ohwba03_ale/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/config/ov13850_liteon_p13v01h_chm/SmartAE.xml:system/etc/camera/smartae/config/ov13850_liteon_p13v01h_chm/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/config/ov13850_liteon_p13v01h_ale/SmartAE.xml:system/etc/camera/smartae/config/ov13850_liteon_p13v01h_ale/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/config/s5k4e1_sunny_ale/SmartAE.xml:system/etc/camera/smartae/config/s5k4e1_sunny_ale/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/config/s5k4e1_sunny_chm/SmartAE.xml:system/etc/camera/smartae/config/s5k4e1_sunny_chm/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/config/ov5648_ofilm_ohw5f03_ale/SmartAE.xml:system/etc/camera/smartae/config/ov5648_ofilm_ohw5f03_ale/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/config/ov5648_foxconn_chm/SmartAE.xml:system/etc/camera/smartae/config/ov5648_foxconn_chm/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/ov2680_byd_bm2920b_pad/SmartAE.xml:system/etc/camera/smartae/ov2680_byd_bm2920b_pad/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/imx219_ofilm_pad/SmartAE.xml:system/etc/camera/smartae/imx219_ofilm_pad/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/imx219_liteon_pad/SmartAE.xml:system/etc/camera/smartae/imx219_liteon_pad/SmartAE.xml \
+    vendor/huawei/kiwi/proprietary/etc/camera/smartae/device.config:system/etc/camera/smartae/device.config \
     vendor/huawei/kiwi/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
