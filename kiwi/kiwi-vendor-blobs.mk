@@ -53,6 +53,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/huawei/kiwi/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/huawei/kiwi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/huawei/kiwi/proprietary/lib64/libbtaddr.so:system/lib64/libbtaddr.so \
+    vendor/huawei/kiwi/proprietary/lib64/libbtpower.so:system/lib64/libbtpower.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/huawei/kiwi/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/huawei/kiwi/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
