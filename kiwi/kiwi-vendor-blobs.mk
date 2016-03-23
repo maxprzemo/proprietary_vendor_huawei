@@ -1558,8 +1558,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary//sbin/libqmi_oem_main:root//sbin/libqmi_oem_main \
     vendor/huawei/kiwi/proprietary//sbin/rmt_oeminfo:root//sbin/rmt_oeminfo \
     vendor/huawei/kiwi/proprietary//sbin/rmt_storage:root//sbin/rmt_storage \
-    vendor/huawei/kiwi/proprietary//sbin/signinfolistener:root//sbin/signinfolistener \
     vendor/huawei/kiwi/proprietary//sbin/usb_update:root//sbin/usb_update \
+    vendor/huawei/kiwi/proprietary/bin/oeminfo_server:system/bin/oeminfo_server \
     vendor/huawei/kiwi/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/huawei/kiwi/proprietary/lib/libdmd_report.so:system/lib/libdmd_report.so \
     vendor/huawei/kiwi/proprietary/lib64/libdmd_report.so:system/lib64/libdmd_report.so \
