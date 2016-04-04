@@ -1514,6 +1514,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/huawei/kiwi/proprietary/ons.bin:system/ons.bin \
     vendor/huawei/kiwi/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/huawei/kiwi/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/kiwi/proprietary/bin/qmuxd:system/bin/qmuxd \
