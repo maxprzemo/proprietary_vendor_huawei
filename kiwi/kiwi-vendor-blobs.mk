@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/huawei/kiwi/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/huawei/kiwi/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/huawei/kiwi/proprietary/lib/hw/fingerprint_module.default.so:system/lib/hw/fingerprint_module.default.so \
     vendor/huawei/kiwi/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/huawei/kiwi/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/huawei/kiwi/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
@@ -451,6 +452,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/libactuator_s5k5e2_foxconn_hc0806.so:system/vendor/lib/libactuator_s5k5e2_foxconn_hc0806.so \
     vendor/huawei/kiwi/proprietary/lib64/libchromatix_imx135_liveshot.so:system/lib64/libchromatix_imx135_liveshot.so \
     vendor/huawei/kiwi/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
+    vendor/huawei/kiwi/proprietary/lib/libcom_fingerprints_sensor.so:system/lib/libcom_fingerprints_sensor.so \
+    vendor/huawei/kiwi/proprietary/lib/lib_fingerprints_teeproxy_jni.so:system/lib/lib_fingerprints_teeproxy_jni.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libchromatix_ar1335_sunny_f13m01f_common.so:system/vendor/lib64/libchromatix_ar1335_sunny_f13m01f_common.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libchromatix_ar1335_sunny_f13m01f_default_video.so:system/vendor/lib64/libchromatix_ar1335_sunny_f13m01f_default_video.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libchromatix_ar1335_sunny_f13m01f_liveshot.so:system/vendor/lib64/libchromatix_ar1335_sunny_f13m01f_liveshot.so \
@@ -1387,6 +1390,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/huawei/kiwi/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/huawei/kiwi/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/huawei/kiwi/proprietary/lib64/hw/fingerprint_module.default.so:system/lib64/hw/fingerprint_module.default.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
@@ -1547,6 +1551,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/huawei/kiwi/proprietary/usr/idc/fingerprint.idc:system/usr/idc/fingerprint.idc \
+    vendor/huawei/kiwi/proprietary/usr/keylayout/fingerprint.kl:system/usr/keylayout/fingerprint.kl \
     vendor/huawei/kiwi/proprietary//sbin/chargelog.sh:root//sbin/chargelog.sh \
     vendor/huawei/kiwi/proprietary//sbin/e2fsck_s:root//sbin/e2fsck_s \
     vendor/huawei/kiwi/proprietary//sbin/fsck_msdos_s:root//sbin/fsck_msdos_s \
@@ -1582,6 +1588,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/huawei/kiwi/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/huawei/kiwi/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/huawei/kiwi/proprietary/etc/firmware/fingerpr.b00:system/etc/firmware/fingerpr.b00 \
+    vendor/huawei/kiwi/proprietary/etc/firmware/fingerpr.b01:system/etc/firmware/fingerpr.b01 \
+    vendor/huawei/kiwi/proprietary/etc/firmware/fingerpr.b02:system/etc/firmware/fingerpr.b02 \
+    vendor/huawei/kiwi/proprietary/etc/firmware/fingerpr.b03:system/etc/firmware/fingerpr.b03 \
+    vendor/huawei/kiwi/proprietary/etc/firmware/fingerpr.mdt:system/etc/firmware/fingerpr.mdt \
     vendor/huawei/kiwi/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
