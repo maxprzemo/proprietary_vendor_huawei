@@ -19,12 +19,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/huawei/kiwi/proprietary/lib/libteec.so:system/vendor/lib/libteec.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
+    vendor/huawei/kiwi/proprietary/lib64/libteec.so:system/vendor/lib64/libteec.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -53,6 +55,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/huawei/kiwi/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/huawei/kiwi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/huawei/kiwi/proprietary/bin/teecd:system/bin/teecd \
+    vendor/huawei/kiwi/proprietary/bin/fingerprint_log:system/bin/fingerprint_log \
     vendor/huawei/kiwi/proprietary/lib64/libbtaddr.so:system/lib64/libbtaddr.so \
     vendor/huawei/kiwi/proprietary/lib64/libbtpower.so:system/lib64/libbtpower.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
@@ -1588,11 +1592,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/huawei/kiwi/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/huawei/kiwi/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerpr.b00:system/etc/firmware/fingerpr.b00 \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerpr.b01:system/etc/firmware/fingerpr.b01 \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerpr.b02:system/etc/firmware/fingerpr.b02 \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerpr.b03:system/etc/firmware/fingerpr.b03 \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerpr.mdt:system/etc/firmware/fingerpr.mdt \
+    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.b00:system/etc/firmware/fingerprints.b00 \
+    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.b01:system/etc/firmware/fingerprints.b01 \
+    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.b02:system/etc/firmware/fingerprints.b02 \
+    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.b03:system/etc/firmware/fingerprints.b03 \
+    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.mdt:system/etc/firmware/fingerprints.mdt \
     vendor/huawei/kiwi/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
