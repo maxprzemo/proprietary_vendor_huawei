@@ -20,6 +20,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/huawei/kiwi/proprietary/lib/libteec.so:system/vendor/lib/libteec.so \
+    vendor/huawei/kiwi/proprietary/lib64/hw/fingerprint.msm8916.so:system/lib64/hw/fingerprint.msm8916.so \
+    vendor/huawei/kiwi/proprietary/lib64/hw/fingerprintd.ex.so:system/lib64/hw/fingerprintd.ex.so \
+    vendor/huawei/kiwi/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
@@ -1592,11 +1595,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/huawei/kiwi/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/huawei/kiwi/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.b00:system/etc/firmware/fingerprints.b00 \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.b01:system/etc/firmware/fingerprints.b01 \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.b02:system/etc/firmware/fingerprints.b02 \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.b03:system/etc/firmware/fingerprints.b03 \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.mdt:system/etc/firmware/fingerprints.mdt \
     vendor/huawei/kiwi/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
