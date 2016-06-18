@@ -20,16 +20,18 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/huawei/kiwi/proprietary/lib/libteec.so:system/vendor/lib/libteec.so \
-    vendor/huawei/kiwi/proprietary/lib64/hw/fingerprint.msm8916.so:system/lib64/hw/fingerprint.msm8916.so \
-    vendor/huawei/kiwi/proprietary/lib64/hw/fingerprintd.ex.so:system/lib64/hw/fingerprintd.ex.so \
-    vendor/huawei/kiwi/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
+    vendor/huawei/kiwi/proprietary/bin/signinfolistener:system/bin/signinfolistener \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
+    vendor/huawei/kiwi/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
     vendor/huawei/kiwi/proprietary/lib64/libteec.so:system/vendor/lib64/libteec.so \
+    vendor/huawei/kiwi/proprietary/lib64/hw/fingerprint.msm8916.so:system/lib64/hw/fingerprint.msm8916.so \
+    vendor/huawei/kiwi/proprietary/lib64/hw/fingerprintd.ex.so:system/lib64/hw/fingerprintd.ex.so \
+    vendor/huawei/kiwi/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
