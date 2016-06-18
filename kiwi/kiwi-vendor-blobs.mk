@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/kiwi/proprietary/bin/teecd:system/bin/teecd \
     vendor/huawei/kiwi/proprietary/bin/fingerprint_log:system/bin/fingerprint_log \
+    vendor/huawei/kiwi/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/huawei/kiwi/proprietary/lib64/libbtaddr.so:system/lib64/libbtaddr.so \
     vendor/huawei/kiwi/proprietary/lib64/libbtpower.so:system/lib64/libbtpower.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
