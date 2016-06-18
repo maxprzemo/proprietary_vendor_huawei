@@ -1561,8 +1561,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/huawei/kiwi/proprietary/usr/idc/fingerprint.idc:system/usr/idc/fingerprint.idc \
-    vendor/huawei/kiwi/proprietary/usr/keylayout/fingerprint.kl:system/usr/keylayout/fingerprint.kl \
     vendor/huawei/kiwi/proprietary//sbin/chargelog.sh:root//sbin/chargelog.sh \
     vendor/huawei/kiwi/proprietary//sbin/e2fsck_s:root//sbin/e2fsck_s \
     vendor/huawei/kiwi/proprietary//sbin/fsck_msdos_s:root//sbin/fsck_msdos_s \
