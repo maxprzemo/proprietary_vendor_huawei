@@ -1594,11 +1594,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/huawei/kiwi/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/huawei/kiwi/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.b00:system/etc/firmware/fingerprints.b00 \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.b01:system/etc/firmware/fingerprints.b01 \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.b02:system/etc/firmware/fingerprints.b02 \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.b03:system/etc/firmware/fingerprints.b03 \
-    vendor/huawei/kiwi/proprietary/etc/firmware/fingerprints.mdt:system/etc/firmware/fingerprints.mdt \
     vendor/huawei/kiwi/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
